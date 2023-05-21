@@ -23,12 +23,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <Container maxW="1000px">
+          <Container maxW="container.xl">
             <Box as="nav">
               <Flex justifyContent>
-                <Box m={3} className="text-4xl font-bold">
+                <Box m={3}>
                   <Link
-                    className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500"
+                    className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500"
                     href="/"
                   >
                     Filip Przygoński
@@ -36,7 +36,10 @@ export default function RootLayout({
                 </Box>
                 <Spacer />
                 <Box m={3}>
-                  <Link href="/contact" className="text-4xl text-black hover:underline">
+                  <Link
+                    href="/contact"
+                    className="text-4xl text-black hover:underline"
+                  >
                     Contact
                   </Link>
                 </Box>

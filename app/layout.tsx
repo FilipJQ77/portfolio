@@ -20,7 +20,7 @@ export default function RootLayout({
         <Providers>
           <Container maxW="container.xl">
             <Box as="nav">
-              <Flex justifyContent>
+              <Flex>
                 <Box m={3}>
                   <Link
                     className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500"

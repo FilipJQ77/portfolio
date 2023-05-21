@@ -9,11 +9,6 @@ import { Box, Container, Flex, Spacer } from "@chakra-ui/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Filip Przygoński",
-  description: "Filip Przygoński portfolio",
-};
-
 export default function RootLayout({
   children,
 }: {

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -16,6 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Filip Przygoński</title>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body>
         <Providers>
           <Container maxW="container.xl">
@@ -33,7 +36,7 @@ export default function RootLayout({
                 <Box m={3}>
                   <Link
                     href="/contact"
-                    className="text-4xl text-black hover:underline"
+                    className="text-4xl bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-purple-500 hover:underline"
                   >
                     Contact
                   </Link>

@@ -1,22 +1,42 @@
 "use client";
 
-import { Box, Center, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Center,
+  Image,
+  Flex,
+  Spacer,
+  Text,
+  VStack,
+} from "@chakra-ui/react";
 import Link from "next/link";
 
 export default function Home() {
   const projects = ["Next.js Portfolio", "Blazor Web Apps"];
   return (
     <>
-      <Box m={3} w="100%" h="100%">
-        <Center pt={10} className="text-4xl font-bold text-blue-500">
-          Hello!
-        </Center>
+      <VStack m={3}>
         <Center>
-          <Box w="50%">
-            <Text pt={10} className="text-3xl font-bold text-blue-500">
-              About me
+          <VStack>
+            <Image
+              borderRadius="full"
+              boxSize="200px"
+              aspectRatio="1:1"
+              maxH="100%"
+              src="/images/image0.jpeg"
+              alt="Filip Przygoński"
+            />
+            <Text className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-violet-500 to-purple-500">
+              Software Engineer trying to be a Full-Stack
             </Text>
-            <Text pt={5} className="text-justify">
+          </VStack>
+        </Center>
+        <Box>
+          <Text pt={10} className="text-3xl font-bold text-blue-500">
+            About me
+          </Text>
+          <Box pt={5}>
+            <Text className="text-justify">
               I am an experienced Software Engineer with a strong background in
               .NET development, including ASP.NET and Blazor, with an interest
               in backend-focused full-stack web development with Next.js for
@@ -29,8 +49,8 @@ export default function Home() {
               exploring the nature.
             </Text>
           </Box>
-        </Center>
-      </Box>
+        </Box>
+      </VStack>
       <h2 className="ml-3 mt-24 font-bold text-gray-700 text-3xl">
         My Projects
       </h2>

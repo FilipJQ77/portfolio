@@ -138,7 +138,7 @@ export default function Home() {
                     realised I want to be a full-stack developer. Later I
                     learned Blazor, which I used for a web app for a company
                     project, however now I would say my favourite frontend
-                    technology is Next.js (and that's why this website is in
+                    technology is Next.js (and that&apos;s why this website is in
                     it).
                   </Text>
                 </CardBody>
@@ -167,12 +167,12 @@ export default function Home() {
                 </CardHeader>
                 <CardBody>
                   <Text>
-                    In the last semester of my engineering's degree I had a
+                    In the last semester of my engineering&apos;s degree I had a
                     course about developing a mobile app. Our group decided to
                     use Flutter for it, and I immediately loved it. In around 2
                     months we created a Scrabble clone that had pretty much full
                     functionality. After that I worked a bit on a personal
-                    project, but I've put it on a hiatus. Apart from Flutter I
+                    project, but I have put it on a hiatus. Apart from Flutter I
                     was looking into Kotlin Native, because I heard good
                     opinions about the language itself.
                   </Text>
